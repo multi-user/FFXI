@@ -1,4 +1,4 @@
-**AutoMeds** is a Windower addon that automatically uses items when your character is affected by specific debuffs.
+**AutoMeds** is a Windower addon that automatically uses medicine when your character is affected by specific debuffs.
 
 ## Features
 
