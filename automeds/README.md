@@ -3,7 +3,7 @@
 ## Features
 
 - Automatically uses the correct item for common debuffs.
-- Retries using medicine every 4 seconds until the debuff is cleared.
+- Retries using medicine until the debuff is cleared.
 - Automatically stops once the debuff is gone.
 - Tracks debuffs on your character.
 - Optional:
