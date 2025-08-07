@@ -108,7 +108,7 @@ end
 end
 end)
 
--- Sneak/Invis wear tracking
+-- Sneak/Invisible wear tracking
 windower.register_event('incoming text', function(old,new,color)
 if settings.sitrack then
 local _,_,txt = string.find(new,'The effect of ([%w]+) is about to wear off.')
@@ -131,7 +131,7 @@ windower.add_to_chat(208, '//automeds unwatch [buffname] - Removes buff from tra
 windower.add_to_chat(208, '//automeds trackalt - Toggles alt message broadcast')
 windower.add_to_chat(208, '//automeds sitrack - Toggles Sneak/Invisible wear message')
 windower.add_to_chat(208, '//automeds list - Displays tracked debuffs')
-windower.add_to_chat(208, '//automeds toggle - Turns automatic item use on/off')
+windower.add_to_chat(208, '//automeds toggle - Turns automatic medicine use on/off')
 
 elseif cmd == 'watch' and args[2] then
 local buff = table.concat(args, ' ', 2):lower()
@@ -171,7 +171,7 @@ end
 
 elseif cmd == 'toggle' then
 automeds = not automeds
-windower.add_to_chat(207, 'Auto item use is now: '..tostring(automeds))
+windower.add_to_chat(207, 'Auto medicine use is now: '..tostring(automeds))
 
 else
 windower.add_to_chat(207, 'Invalid command. Use //automeds help for available options')
