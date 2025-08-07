@@ -108,7 +108,7 @@ end
 end
 end)
 
--- Sneak/Invisible wear tracking
+-- Invisible/Sneak wear tracking
 windower.register_event('incoming text', function(old,new,color)
 if settings.sitrack then
 local _,_,txt = string.find(new,'The effect of ([%w]+) is about to wear off.')
@@ -161,7 +161,7 @@ windower.add_to_chat(207, 'Alt tracking: '..tostring(settings.alttrack))
 elseif cmd == 'sitrack' then
 settings.sitrack = not settings.sitrack
 settings:save()
-windower.add_to_chat(207, 'Sneak/Invis tracker: '..tostring(settings.sitrack))
+windower.add_to_chat(207, 'Invisible/Sneak tracker: '..tostring(settings.sitrack))
 
 elseif cmd == 'list' then
 windower.add_to_chat(207, 'Tracked debuffs:')
