@@ -16,8 +16,8 @@
 
 Do not type <> when using commands:
 
-- //automeds watch <buffname> - Adds buff to tracker
-- //automeds unwatch <buffname> - Removes buff from tracker
+- //automeds watch < buffname > - Adds buff to tracker
+- //automeds unwatch < buffname > - Removes buff from tracker
 - //automeds trackalt - Toggles alt message broadcast
 - //automeds sitrack - Toggles sneak/invis wear message
 - //automeds list - Displays tracked debuffs
