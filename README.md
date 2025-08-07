@@ -7,8 +7,8 @@
 - Automatically stops once the debuff is gone.
 - Tracks debuffs on your character.
 - Optional:
-  - Broadcast debuff info to alts (trackalt).
-  - Notify when Sneak/Invisible is wearing off (sitrack).
+	1. Broadcast debuff info to alts (trackalt).
+	2. Notify when Sneak/Invisible is wearing off (sitrack).
 - Configurable buff tracking list.
 - Toggle system on/off in-game.
 
