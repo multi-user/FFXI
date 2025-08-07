@@ -12,7 +12,7 @@ chat = require('chat')
 res = require('resources')
 
 defaults = {}
-defaults.buffs = S{"amnesia","silence","paralysis","curse","doom","plague","disease"}
+defaults.buffs = S{"amnesia","curse","disease","doom","paralysis","plague","silence"}
 defaults.alttrack = false
 defaults.sitrack = false
 
@@ -23,12 +23,12 @@ automeds = true
 -- Debuff to item mappings
 local debuff_items = {
 ["amnesia"] = "Remedy",
-["silence"] = "Echo Drops",
-["paralysis"] = "Remedy",
 ["curse"] = "Holy Water",
-["doom"] = "Holy Water",
-["plague"] = "Remedy",
 ["disease"] = "Antidote"
+["doom"] = "Holy Water",
+["paralysis"] = "Remedy",
+["plague"] = "Remedy",
+["silence"] = "Echo Drops"
 }
 
 -- Retry handling
