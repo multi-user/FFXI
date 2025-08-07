@@ -51,7 +51,7 @@ local buff_name = res.buffs[buff_id] and res.buffs[buff_id].english:lower()
 if buff_name and settings.buffs:contains(buff_name) then
 local item = debuff_items[buff_name]
 if item and os.clock() - last_retry_time > retry_delay then
--- Check if the item exists in inventory
+-- Check if the medicine exists in inventory
 local inventory = windower.ffxi.get_items().inventory
 local has_item = false
 
