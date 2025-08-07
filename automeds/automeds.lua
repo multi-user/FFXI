@@ -126,8 +126,8 @@ local cmd = args[1]:lower()
 
 if cmd == 'help' then
 windower.add_to_chat(208, '[Automeds] Commands:')
-windower.add_to_chat(208, '//automeds watch <buffname> - Adds buff to tracker')
-windower.add_to_chat(208, '//automeds unwatch <buffname> - Removes buff from tracker')
+windower.add_to_chat(208, '//automeds watch [buffname] - Adds buff to tracker')
+windower.add_to_chat(208, '//automeds unwatch [buffname] - Removes buff from tracker')
 windower.add_to_chat(208, '//automeds trackalt - Toggles alt message broadcast')
 windower.add_to_chat(208, '//automeds sitrack - Toggles sneak/invis wear message')
 windower.add_to_chat(208, '//automeds list - Displays tracked debuffs')
