@@ -19,7 +19,7 @@ Do not type [ ] when using commands:
 - //automeds watch [buffname] - Adds buff to tracker
 - //automeds unwatch [buffname] - Removes buff from tracker
 - //automeds trackalt - Toggles alt message broadcast
-- //automeds sitrack - Toggles sneak/invis wear message
+- //automeds sitrack - Toggles Invisible/Sneak wear message
 - //automeds list - Displays tracked debuffs
 - //automeds toggle - Turns automatic item use on/off
 - //automeds help - List commands
