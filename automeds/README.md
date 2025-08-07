@@ -8,7 +8,7 @@
 - Tracks debuffs on your character.
 - Optional:
 	1. Broadcast debuff info to alts (trackalt).
-	2. Notify when Sneak/Invisible is wearing off (sitrack).
+	2. Notify when Invisible/Sneak is wearing off (sitrack).
 - Configurable buff tracking list.
 - Toggle system on/off in-game.
 
