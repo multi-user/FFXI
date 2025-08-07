@@ -32,12 +32,12 @@ local debuff_items = {
 }
 
 -- Retry handling
-local retry_delay = 4
+local retry_delay = 4 -- retry in seconds
 local last_retry_time = os.clock()
 local active_debuff = nil
 local missing_item_alerts = {}
 
--- Reuse item continuously until debuff is cleared
+-- Retry medicine continuously until debuff is cleared
 windower.register_event('prerender', function()
 if not automeds then return end
 
