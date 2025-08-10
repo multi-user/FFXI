@@ -22,7 +22,7 @@
 	2. Works even if Aura Awareness is disabled.
 	3. Pauses item use for a set duration if repeated attempts fail to remove a debuff (default: 2 attempts then a 120 second pause).
 	4. Pause duration can be set between [60 - 600] seconds.
-	5. Each debuff has it's pause duration counter.
+	5. Each debuff has it's own pause duration counter.
 	6. Pause duration resets when the debuff debuff is no longer active.
 	
 ## Commands
