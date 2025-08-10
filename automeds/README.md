@@ -43,4 +43,4 @@ List commands: //ameds help
 - //ameds auradistance [yalms] - Set distance detection for Aura Awareness
 - //ameds auraadd "[target]" [debuff] - Add target for Aura Awareness
 - //ameds aurarem "[target]" [debuff] - Remove target from Aura Awareness
-- //ameds auralist [target] - List aura sources
+- //ameds auralist - List aura sources
