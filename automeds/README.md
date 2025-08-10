@@ -14,16 +14,16 @@
 - Aura Awareness:
 	1. Distance-based aura check will continuously scan nearby targets and their debuff within in your aura list.
 	2. Distance check only triggers if a matching target is within your set range (default: 20 yalms).
-	3. Auto-suppress item usage if a debuff within in your aura list is detected nearby.
+	3. Auto-suppress item usage if a debuff is within in your aura list is detected nearby.
 	4. Targets must be added to the aura list for Aura Awareness to work.
-	5. Better than Smart Aura Block if you know what debuffs you'll be encountering.
+	5. Better than Smart Aura Block if you know what debuff you'll be encountering.
 - Smart Aura Block:
-	1. Works even if Aura Awareness is disabled.
-	2. Pauses item use for a set duration if repeated attempts fail to remove a debuff (default: 2 attempts then a 120 second pause).
-	3. Pause duration can be set between [60 - 600] seconds.
-	4. Each debuff has it's pause duration counter.
-	5. Pause duration resets when the debuff debuff is no longer active.
-	6. Disabled by default.
+	1. Disabled by default.
+	2. Works even if Aura Awareness is disabled.
+	3. Pauses item use for a set duration if repeated attempts fail to remove a debuff (default: 2 attempts then a 120 second pause).
+	4. Pause duration can be set between [60 - 600] seconds.
+	5. Each debuff has it's pause duration counter.
+	6. Pause duration resets when the debuff debuff is no longer active.
 	
 ## Commands
 
