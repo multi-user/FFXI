@@ -361,7 +361,6 @@ local name = res.buffs[id] and res.buffs[id].english:lower()
 if name == active_debuff then
 windower.add_to_chat(207, 'Debuff "'..name..'" cleared.')
 active_debuff = nil
--- reset smart state for this debuff
 use_attempts[name] = nil
 aura_block_until[name] = nil
 aura_block_alerted[name] = nil
