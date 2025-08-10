@@ -557,7 +557,7 @@ windower.add_to_chat(208, '//ameds aurablock [seconds] - Set pause duration [60 
 windower.add_to_chat(208, '//ameds auradistance [yalms] - Set distance detection for Aura Awareness')
 windower.add_to_chat(208, '//ameds auraadd "[target]" [debuff] - Add target for Aura Awareness')
 windower.add_to_chat(208, '//ameds aurarem "[target]" [debuff] - Remove target from Aura Awareness')
-windower.add_to_chat(208, '//ameds auralist [target] - List aura sources')
+windower.add_to_chat(208, '//ameds auralist - List aura sources')
 end
 end)
 
