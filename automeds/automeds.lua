@@ -271,7 +271,7 @@ local item = debuff_items[buff_name]
 local src = aura_source_nearby_for(buff_name)
 if src then
 if not aura_skip_alerts[buff_name] then
-windower.add_to_chat(123, ('[Automeds] Skipping item use for %s due to nearby aura source: %s'):format(buff_name, src))
+windower.add_to_chat(123, ('[Automeds] Skipping item use for %s due to nearby aura source: %s.'):format(buff_name, src))
 aura_skip_alerts[buff_name] = true
 end
 active_debuff = buff_name
@@ -330,7 +330,7 @@ end
 end
 
 if has_item then
-windower.add_to_chat(207, 'Using '..item..' for '..buff_name)
+windower.add_to_chat(207, 'Using '..item..' for '..buff_name..'.')
 windower.send_command('input /item "'..item..'" '..player.name)
 last_retry_time = now
 missing_item_alerts[buff_name] = nil
@@ -340,7 +340,7 @@ record_attempt(buff_name, now)
 trim_attempts(buff_name, now, smart.attempt_window or 8)
 end
 elseif not missing_item_alerts[buff_name] then
-windower.add_to_chat(123, 'Missing item "'..(item or '?')..'" for debuff: '..buff_name)
+windower.add_to_chat(123, 'Missing item "'..(item or '?')..'" for debuff: '..buff_name..'.')
 missing_item_alerts[buff_name] = true
 end
 end
@@ -403,7 +403,7 @@ settings.buffs:add(buff)
 settings:save()
 windower.add_to_chat(207, 'Tracking buff: '..buff)
 else
-windower.add_to_chat(207, buff..' is already tracked')
+windower.add_to_chat(207, buff..' is already tracked.')
 end
 
 elseif cmd == 'unwatch' and args[2] then
