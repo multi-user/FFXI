@@ -28,7 +28,7 @@
 ## Commands
 
 Do not type [ ] when using commands:
-**//ameds help - List commands**
+//ameds help - List commands
 
 - //ameds watch [buff] - Track a debuff
 - //ameds unwatch [buff] - Untrack a debuff
