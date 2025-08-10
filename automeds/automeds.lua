@@ -2,7 +2,7 @@ _addon.name = 'Automeds'
 _addon.version = '1.1.25'
 _addon.author = 'Multi'
 _addon.commands = {'automeds','ameds'}
-f
+
 require('tables')
 require('strings')
 require('logger')
