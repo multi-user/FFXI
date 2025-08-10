@@ -14,7 +14,7 @@
 - Aura Awareness:
 	1. Distance-based aura check will continuously scan nearby targets and their debuff within your aura list.
 	2. Distance check only triggers if a matching target is within your set range (default: 20 yalms).
-	3. Auto-suppress item usage if a debuff is within in your aura list is detected nearby.
+	3. Auto-suppress item usage if a debuff within in your aura list is detected nearby.
 	4. Targets must be added to the aura list for Aura Awareness to work.
 	5. Better than Smart Aura Block if you know what debuff you'll be encountering.
 - Smart Aura Block:
