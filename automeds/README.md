@@ -3,23 +3,43 @@
 ## Features
 
 - Automatically uses the correct item for common debuffs.
-- Retries using medicine until the debuff is cleared.
+- Automatically skips item use if the item isn’t in your inventory.
+- Retries item use until the debuff is cleared.
 - Automatically stops once the debuff is gone.
 - Tracks debuffs on your character.
-- Optional:
+- IPC Multi-Character Support:
 	1. Broadcast debuff info to alts (trackalt).
-	2. Notify when Invisible/Sneak is wearing off (sitrack).
+	2. Notify when Sneak/Invisible is wearing off (sitrack).
 - Configurable buff tracking list.
-- Toggle system on/off in-game.
-
+- Aura Awareness:
+	1. Distance-based aura check will continuously scan nearby targets and their debuff within in your aura list.
+	2. Distance check only triggers if a matching target is within your set range (default: 20 yalms).
+	3. Auto-suppress item usage if a debuff within in your aura list is detected nearby.
+	4. Targets must be added to the aura list for Aura Awareness to work.
+	5. Better than Smart Aura Block if you know what debuffs you'll be encountering.
+- Smart Aura Block:
+	1. Works even if Aura Awareness is disabled.
+	2. Pauses item use for a set duration if repeated attempts fail to remove a debuff (default: 2 attempts then a 120 second pause).
+	3. Pause duration can be set between [60 - 600] seconds.
+	4. Each debuff has it's pause duration counter.
+	5. Pause duration resets when the debuff debuff is no longer active.
+	6. Disabled by default.
+	
 ## Commands
 
 Do not type [ ] when using commands:
+**//ameds help - List commands**
 
-- //automeds watch [buffname] - Adds buff to tracker
-- //automeds unwatch [buffname] - Removes buff from tracker
-- //automeds trackalt - Toggles alt message broadcast
-- //automeds sitrack - Toggles Invisible/Sneak wear message
-- //automeds list - Displays tracked debuffs
-- //automeds toggle - Turns automatic item use on/off
-- //automeds help - List commands
+- //ameds watch [buff] - Track a debuff
+- //ameds unwatch [buff] - Untrack a debuff
+- //ameds list - Show tracked debuffs
+- //ameds toggle - Toggle Automeds On/Off
+- //ameds trackalt - Toggle alt broadcast
+- //ameds sitrack - Toggle Sneak/Invisible wear tracker
+- //ameds aura on|off - Enable/Disable Aura Awareness
+- //ameds aurasmart on|off - Enable/Disable Smart Aura Block
+- //ameds aurablock [seconds] - Set pause duration [60 - 600]
+- //ameds auradistance [yalms] - Set distance detection for Aura Awareness
+- //ameds auraadd "[target]" [debuff] - Add target for Aura Awareness
+- //ameds aurarem "[target]" [debuff] - Remove target from Aura Awareness
+- //ameds auralist [target] - List aura sources
