@@ -13,7 +13,7 @@ res = require('resources')
 
 -- Defaults
 local defaults = {}
-defaults.buffs = S{"amnesia","curse","disease","doom","paralysis","plague","silence","petrification","sleep","slow"}
+defaults.buffs = S{"amnesia","curse","disease","doom","paralysis","plague","silence","slow"}
 defaults.alttrack = false
 defaults.sitrack = false
 
@@ -43,7 +43,6 @@ local debuff_items = {
 ["paralysis"] = "Remedy",
 ["plague"] = "Remedy",
 ["silence"] = "Echo Drops",
-["petrification"] = "Remedy",
 ["slow"] = nil, -- no item
 }
 
