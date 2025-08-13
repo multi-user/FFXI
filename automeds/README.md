@@ -44,3 +44,7 @@ List commands: //ameds help
 - //ameds auraadd "[target]" [debuff] - Add target for Aura Awareness
 - //ameds aurarem "[target]" [debuff] - Remove target from Aura Awareness
 - //ameds auralist - List aura sources
+
+## Notes
+
+It's recommended to add targets directly to *sources_list* in defaults.global if you play multiple characters.
