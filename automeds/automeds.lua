@@ -21,7 +21,8 @@ defaults.global = {
 aura = {
 enabled = true,			-- Aura Awareness
 distance = 20,
-sources_list = {},		-- Add as {"target|debuff","target|debuff"}
+-- Sources List: add as {"target|debuff","target|debuff"}
+sources_list = {},
 smart = {
 enabled = false,		-- Smart Aura Block
 attempt_window = 8,   	-- Triggers Smart Aura Block after the failed `max_attempts` within the `attempt_window` in seconds
